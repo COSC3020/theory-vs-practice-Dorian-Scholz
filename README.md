@@ -13,3 +13,9 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+1.) Asymptotic analysis focuses on the dominant term ignoring constants and lower-order terms. But in practice the constants can have a significant impact. Especially for small or moderate input sizes. An algorithm with a better asymptotic complexity may still be slower than another due to larger constant factors or inefficiencies in its implementation.
+
+2.) Asymptotic analysis doesn’t consider memory hierarchy, cache performance, or data locality. Algorithms that are theoretically optimal may perform poorly due to excessive memory access times.
+
+3.) Different algorithms may have varying performance based on input properties. Asymptotic analysis typically doesn't consider these variations.
