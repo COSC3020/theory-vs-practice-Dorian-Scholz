@@ -13,3 +13,16 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+Answer: 
+1.) Asymptotic analysis can be misleading in practice for these reasons:
+Constant Factors: It ignores constants and lower-order terms that affect actual runtime, especially for smaller inputs.
+Hardware and Memory: Real-world performance depends on CPU cache, memory access, and system architecture, which asymptotic analysis overlooks.
+Input Characteristics: Algorithms may perform differently based on specific input patterns, which aren't accounted for in theoretical analysis.
+
+2.) it would take about 6.67 seconds to search a tree with 10,000 elements.
+
+3.) If searching in a tree with 10,000 elements takes 100 seconds, possible reasons include:
+Unbalanced Tree: A skewed tree leads to O(n) search time instead of O(logn). 
+Cache Issues: Poor memory access patterns can slow down the search due to inefficient cache usage. 
+Inefficient Implementation: The tree might have a suboptimal implementation or lack optimizations, causing slower performance.
